@@ -27,4 +27,28 @@
 				<ComboBoxItem Content="Nagy"/>
 			</ComboBox>
 		</GroupBox>
+		<!-- 3. Feltétek CheckBox-ok -->
+		<GroupBox Header="Feltétek" Grid.Row="2" Margin="5">
+			<StackPanel Orientation="Vertical">
+				<CheckBox Name="chSajt" Content="Sajt"/>
+				<CheckBox Name="chSonka" Content="Sonka"/>
+				<CheckBox Name="chGomba" Content="Gomba"/>
+				<CheckBox Name="chOlivabogyo" Content="Olívabogyó"/>
+				<CheckBox Name="chKukorica" Content="Kukorica"/>
+			</StackPanel>
+		</GroupBox>
+		<!-- 4. Átvétel RadioButton-ok -->
+		<GroupBox Header="Átvétel módja" Grid.Row="3" Margin="5">
+			<StackPanel Orientation="Vertical">
+				<RadioButton Name="rbHazhoz" Content="Házhozszállítás"/>
+				<RadioButton Name="rbSzemelyes" Content="Személyes átvétel"/>
+			</StackPanel>
+		</GroupBox>
+		<!-- 5. Gomb + Eredmény -->
+		<StackPanel Grid.Row="4" Margin="5">
+			<Button Name="btnRendel" Content="Rendelés leadása" Width="200" Height="35"
+                    Click="btnRendel_Click"/>
+			<TextBlock Name="tbEredmeny" Margin="5" TextWrapping="Wrap" FontSize="14"/>
+		</StackPanel>
+	</Grid>
 </Window>
