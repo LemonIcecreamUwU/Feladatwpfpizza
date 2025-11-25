@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36212.18 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feladatwpfpizza", "Feladatwpfpizza\Feladatwpfpizza.csproj", "{A036F96E-1FCE-4F24-A8A9-84B21022E11D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A036F96E-1FCE-4F24-A8A9-84B21022E11D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A036F96E-1FCE-4F24-A8A9-84B21022E11D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A036F96E-1FCE-4F24-A8A9-84B21022E11D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A036F96E-1FCE-4F24-A8A9-84B21022E11D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4BC8B1EF-9D2A-472B-84E6-84B5EDCC87FF}
+	EndGlobalSection
+EndGlobal
