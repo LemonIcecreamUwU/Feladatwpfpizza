@@ -19,4 +19,12 @@
 				<ListBoxItem Content="Extra vastag"/>
 			</ListBox>
 		</GroupBox>
+		<!-- 2. Méret ComboBox -->
+		<GroupBox Header="Méret" Grid.Row="1" Margin="5">
+			<ComboBox Name="cbMeret" Width="150">
+				<ComboBoxItem Content="Kicsi"/>
+				<ComboBoxItem Content="Közepes"/>
+				<ComboBoxItem Content="Nagy"/>
+			</ComboBox>
+		</GroupBox>
 </Window>
